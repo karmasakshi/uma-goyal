@@ -12,7 +12,8 @@
     "remove-dependencies": "",
     "add-devDependencies": "npm add --save-dev cz-conventional-changelog standard-version",
     "remove-devDependencies": "npm remove cz-conventional-changelog standard-version",
-    "reinstall-dependencies": "npm run remove-dependencies && npm run remove-devDependencies && npm run add-dependencies && npm run add-devDependencies && npm run build"
+    "reinstall-dependencies": "npm run remove-dependencies && npm run remove-devDependencies && npm run add-dependencies && npm run add-devDependencies",
+    "postreinstall-dependencies": "npm run build"
   },
   "repository": {
     "type": "git",
