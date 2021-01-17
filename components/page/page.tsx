@@ -1,6 +1,6 @@
+import Nav from '@components/nav/nav';
 import Head from 'next/head';
 import { ReactNode } from 'react';
-import Nav from '../nav/nav';
 import styles from './page.module.scss';
 
 interface PageProps {

@@ -1,5 +1,5 @@
+import { Product } from '@interfaces/product';
 import Image from 'next/image';
-import { Product } from '../../interfaces/product';
 
 interface ProductCarouselProps {
   products: Product[];

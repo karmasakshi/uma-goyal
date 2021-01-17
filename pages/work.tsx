@@ -1,8 +1,8 @@
+import Page from '@components/page/page';
+import ProductCarousel from '@components/product-carousel/product-carousel';
+import { PRODUCTS } from '@constants/products';
+import { Product } from '@interfaces/product';
 import Image from 'next/image';
-import Page from '../components/page/page';
-import ProductCarousel from '../components/product-carousel/product-carousel';
-import { PRODUCTS } from '../constants/products';
-import { Product } from '../interfaces/product';
 
 interface WorkProps {
   products: Product[];

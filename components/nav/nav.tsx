@@ -1,4 +1,4 @@
-import StatefulLink from '../stateful-link/stateful-link';
+import StatefulLink from '@components/stateful-link/stateful-link';
 
 interface NavProps { }
 
