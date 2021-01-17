@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/karmasakshi/uma-goyal/compare/v1.1.0...v1.2.0) (2021-01-17)
+
+
+### Features
+
+* update csp header ([16f1354](https://github.com/karmasakshi/uma-goyal/commit/16f1354809d51333c93f688dcd3b2357b911ef92))
+
 ## [1.1.0](https://github.com/karmasakshi/uma-goyal/compare/v1.0.3...v1.1.0) (2021-01-17)
 
 
