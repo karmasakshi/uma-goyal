@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Page from '../components/page/page';
 
-export interface HomePageProps { }
+export interface HomeProps { }
 
-const HomePage: (props: HomePageProps) => JSX.Element = (): JSX.Element => (
+const Home: (props: HomeProps) => JSX.Element = (): JSX.Element => (
 
   <Page title="">
 
@@ -17,4 +17,4 @@ const HomePage: (props: HomePageProps) => JSX.Element = (): JSX.Element => (
 
 );
 
-export default HomePage;
+export default Home;
