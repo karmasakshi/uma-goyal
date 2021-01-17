@@ -1,0 +1,13 @@
+{
+  "name": "uma-goyal",
+  "version": "0.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmasakshi/uma-goyal.git"
+  },
+  "author": "Karmasakshi Goyal <> (https://karmasakshi.com)",
+  "license": "Unlicense",
+  "private": true,
+  "homepage": "https://github.com/karmasakshi/uma-goyal#readme"
+}
