@@ -1,14 +1,16 @@
 import Head from 'next/head';
+import { ReactNode } from 'react';
 import Nav from '../nav/nav';
+import styles from './page.module.scss';
 
 interface PageProps {
-  children: JSX.Element;
+  children: ReactNode;
   title: string;
 }
 
 const Page: (props: PageProps) => JSX.Element = ({ children, title }: PageProps): JSX.Element => (
 
-  <>
+  <div className={styles.page}>
 
     <Head><title>{'Uma Goyal' + (title.length ? ' - ' + title : '')}</title></Head>
 
@@ -16,7 +18,7 @@ const Page: (props: PageProps) => JSX.Element = ({ children, title }: PageProps)
 
     <section className="pb-32 pt-16 px-4 text-center">{children}</section>
 
-  </>
+  </div>
 
 );
 

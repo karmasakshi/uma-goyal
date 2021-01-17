@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
+import { ReactNode } from 'react';
 
 interface StatefulLinkProps {
-  children: JSX.Element;
+  children: ReactNode;
   href: string;
 }
 
