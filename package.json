@@ -2,14 +2,18 @@
   "name": "uma-goyal",
   "version": "0.0.0",
   "scripts": {
+    "build": "next build",
+    "serve": "next dev",
+    "start": "npm run build && next start",
+    "precommit": "npm run build",
     "commit": "git add . && npx --no-install cz",
     "dry-release": "npx --no-install standard-version --dry-run",
     "release": "npx --no-install standard-version && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
     "release-major": "npx --no-install standard-version --release-as major && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
     "release-minor": "npx --no-install standard-version --release-as minor && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
     "release-patch": "npx --no-install standard-version --release-as patch && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
-    "add-dependencies": "",
-    "remove-dependencies": "",
+    "add-dependencies": "npm add next react react-dom",
+    "remove-dependencies": "npm remove next react react-dom",
     "add-devDependencies": "npm add --save-dev cz-conventional-changelog standard-version",
     "remove-devDependencies": "npm remove cz-conventional-changelog standard-version",
     "reinstall-dependencies": "npm run remove-dependencies && npm run remove-devDependencies && npm run add-dependencies && npm run add-devDependencies",
@@ -23,6 +27,11 @@
   "license": "Unlicense",
   "private": true,
   "homepage": "https://github.com/karmasakshi/uma-goyal#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
     "standard-version": "^9.1.0"
