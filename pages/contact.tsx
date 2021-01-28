@@ -1,9 +1,7 @@
 import Page from '@components/page/page';
 import Image from 'next/image';
 
-interface ContactProps { }
-
-const Contact: (props: ContactProps) => JSX.Element = (): JSX.Element => (
+const Contact: () => JSX.Element = (): JSX.Element => (
 
   <Page title="Contact">
 
