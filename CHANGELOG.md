@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/karmasakshi/uma-goyal/compare/v1.3.1...v1.4.0) (2021-01-28)
+
+
+### Features
+
+* replace splitbee hosted script with local package ([0b4ce9d](https://github.com/karmasakshi/uma-goyal/commit/0b4ce9d5137affa9b6c257f65be416606ca6700d))
+
 ### [1.3.1](https://github.com/karmasakshi/uma-goyal/compare/v1.3.0...v1.3.1) (2021-01-28)
 
 ## [1.3.0](https://github.com/karmasakshi/uma-goyal/compare/v1.2.3...v1.3.0) (2021-01-21)
