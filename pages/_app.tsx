@@ -11,6 +11,7 @@ const MyApp: (props: AppProps) => JSX.Element = ({ Component, pageProps }: AppPr
 
     splitbee.init({
       apiUrl: '/sb-api',
+      disableCookie: true,
       scriptUrl: '/sb.js',
     });
 
