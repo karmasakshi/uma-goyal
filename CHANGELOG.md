@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/karmasakshi/uma-goyal/compare/v1.4.0...v1.4.1) (2021-01-28)
+
+
+### Bug Fixes
+
+* remove require-trusted-types csp rule ([bfbd0c2](https://github.com/karmasakshi/uma-goyal/commit/bfbd0c24de5d0aca0a13239535f5dbf8d381971c))
+
 ## [1.4.0](https://github.com/karmasakshi/uma-goyal/compare/v1.3.1...v1.4.0) (2021-01-28)
 
 
