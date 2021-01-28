@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/karmasakshi/uma-goyal/compare/v1.4.1...v1.5.0) (2021-01-28)
+
+
+### Features
+
+* enable cookie-less mode in splitbee ([8ba4020](https://github.com/karmasakshi/uma-goyal/commit/8ba4020dceb1a083e426129112f7e3eff959f0aa))
+
 ### [1.4.1](https://github.com/karmasakshi/uma-goyal/compare/v1.4.0...v1.4.1) (2021-01-28)
 
 
