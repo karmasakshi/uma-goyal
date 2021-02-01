@@ -4,7 +4,8 @@
   "scripts": {
     "build": "next build",
     "serve": "next dev",
-    "start": "npm run build && next start",
+    "prestart": "npm run build",
+    "start": "next start",
     "lint": "npx --no-install eslint . --ext .js,.jsx,.ts,.tsx",
     "precommit": "npm run lint && npm run build",
     "commit": "git add . && npx --no-install cz",
@@ -30,8 +31,8 @@
   "homepage": "https://github.com/karmasakshi/uma-goyal#readme",
   "dependencies": {
     "@splitbee/web": "^0.2.2",
-    "autoprefixer": "^10.2.3",
-    "next": "^10.0.5",
+    "autoprefixer": "^10.2.4",
+    "next": "^10.0.6",
     "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -44,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-react": "^7.22.0",
     "standard-version": "^9.1.0",
     "typescript": "^4.1.3"
