@@ -7,7 +7,7 @@ interface ProductCarouselProps {
 
 const ProductCarousel: (props: ProductCarouselProps) => JSX.Element = ({ products }: ProductCarouselProps): JSX.Element => (
 
-  <div className="overflow-x-auto pb-6 whitespace-nowrap">
+  <div className="overflow-x-auto pb-8 whitespace-nowrap">
 
     {
 
@@ -19,8 +19,8 @@ const ProductCarousel: (props: ProductCarouselProps) => JSX.Element = ({ product
             <Image alt={product.name} height={256} src={product.imageUrl} width={256}></Image>
           </div>
 
-          <div className="absolute bg-white left-0 -mt-8 mx-4 py-1 right-0 rounded shadow-md">
-            <span className="text-2xl">{product.name}</span>
+          <div className="absolute bg-white left-0 -mt-5 mx-4 right-0 rounded shadow-md">
+            <span className="align-middle text-2xl">{product.name}</span>
           </div>
 
         </div>

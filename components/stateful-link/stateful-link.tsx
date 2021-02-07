@@ -13,7 +13,7 @@ const StatefulLink: (props: StatefulLinkProps) => JSX.Element = ({ children, hre
 
   const isLinkActive: boolean = router.pathname === href;
 
-  const classNames: string[] = ['font-bold', 'focus:outline-none', 'focus:ring', 'px-2', 'py-0', 'rounded', 'text-3xl'];
+  const classNames: string[] = ['font-bold', 'focus:outline-none', 'focus:ring', 'px-2', 'rounded', 'text-4xl'];
 
   if (isLinkActive) {
 

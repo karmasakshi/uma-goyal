@@ -16,7 +16,7 @@ const Page: (props: PageProps) => JSX.Element = ({ children, title }: PageProps)
 
     <Nav></Nav>
 
-    <section className="pb-16 pt-16 px-4 text-center">{children}</section>
+    <section className="px-4 py-16 text-center">{children}</section>
 
   </div>
 

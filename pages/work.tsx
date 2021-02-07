@@ -36,14 +36,14 @@ const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.E
     <div className="flex justify-evenly mt-16">
 
       <article>
-        <h1 className="text-2xl">Check out <a className="link" href="https://www.behance.net/_umagoyal_" rel="noreferrer" target="_blank">my Behance</a>:</h1>
+        <h1>Check out <a className="link" href="https://www.behance.net/_umagoyal_" rel="noreferrer" target="_blank">my Behance</a>:</h1>
         <a className="qr-code-container" href="https://www.behance.net/_umagoyal_" rel="noreferrer" target="_blank">
           <Image alt="Behance QR Code" height={128} src="/qr-codes/behance.png" width={128} />
         </a>
       </article>
 
       <article>
-        <h1 className="text-2xl">Check out <a className="link" href="https://www.youtube.com/channel/UCQqN7CMjJDim8vMIq1wtILQ" rel="noreferrer" target="_blank">my YouTube</a>:</h1>
+        <h1>Check out <a className="link" href="https://www.youtube.com/channel/UCQqN7CMjJDim8vMIq1wtILQ" rel="noreferrer" target="_blank">my YouTube</a>:</h1>
         <a className="qr-code-container" href="https://www.youtube.com/channel/UCQqN7CMjJDim8vMIq1wtILQ" rel="noreferrer" target="_blank">
           <Image alt="YouTube QR Code" height={128} src="/qr-codes/youtube.png" width={128} />
         </a>
