@@ -13,7 +13,7 @@ const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.E
   <Page title="Work">
 
     <article>
-      <h1>Illustration styles I&apos;ve done:</h1>
+      <h1>Illustration styles I&apos;ve worked on:</h1>
       <ProductCarousel products={products}></ProductCarousel>
     </article>
 
