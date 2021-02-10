@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/karmasakshi/uma-goyal/compare/v2.6.0...v2.7.0) (2021-02-10)
+
+
+### Features
+
+* copy updates ([e5f8498](https://github.com/karmasakshi/uma-goyal/commit/e5f8498e7afabf18b1bf7e9bdac80e51ec726b6a))
+
 ## [2.6.0](https://github.com/karmasakshi/uma-goyal/compare/v2.5.0...v2.6.0) (2021-02-10)
 
 
