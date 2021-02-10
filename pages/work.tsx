@@ -13,7 +13,7 @@ const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.E
   <Page title="Work">
 
     <article>
-      <h1>Some illustration styles I&apos;ve done:</h1>
+      <h1>Illustration styles I&apos;ve done:</h1>
       <ProductCarousel products={products}></ProductCarousel>
     </article>
 
@@ -25,11 +25,11 @@ const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.E
     </article>
 
     <article className="mt-16">
-      <h1>Some workshops I&apos;ve conducted:</h1>
+      <h1>Workshops I&apos;ve conducted:</h1>
       <ul>
         <li>&middot; <a className="link" href="https://insider.in/charcoal-painting-art-workshop-may5-2019/event">Charcoal Painting</a> (5th May 2019)</li>
         <li>&middot; <a className="link" href="https://doolally.in/?page/events/charcoal-painting-art-workshop-shiva-in-moonlight-70923eb">Shiva in Moonlight</a> (26th April 2019)</li>
-        <li>&middot; <a className="link" href="https://insider.in/tranquil-buddha-charcoal-painting-art-workshop-apr6-2019/event">Link 1</a> or <a className="link" href="https://doolally.in/?page/events/tranquil-buddha-charcoal-sketching-workshop-0578a07">Link 2</a> of Tranquil Buddha (6th April 2019)</li>
+        <li>&middot; <a className="link" href="https://insider.in/tranquil-buddha-charcoal-painting-art-workshop-apr6-2019/event">Tranquil Buddha</a> (6th April 2019)</li>
       </ul>
     </article>
 
