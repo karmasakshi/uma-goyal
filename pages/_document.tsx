@@ -53,7 +53,7 @@ class MyDocument extends Document {
 
           {/* Fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"></link>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"></link>
 
           {/* Manifest */}
           <link rel="manifest" href="/manifest.webmanifest"></link>
