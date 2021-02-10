@@ -20,7 +20,7 @@ const ProductCarousel: (props: ProductCarouselProps) => JSX.Element = ({ product
           </div>
 
           <div className="absolute bg-white border border-gray-100 left-0 -mt-6 mx-4 py-2 right-0 rounded shadow-md">
-            <span className="align-middle text-2xl">{product.name}</span>
+            <span className="align-middle">{product.name}</span>
           </div>
 
         </div>
