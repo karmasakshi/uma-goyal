@@ -19,7 +19,7 @@ const ProductCarousel: (props: ProductCarouselProps) => JSX.Element = ({ product
             <Image alt={product.name} height={256} src={product.imageUrl} width={256}></Image>
           </div>
 
-          <div className="absolute bg-white border border-gray-100 left-0 -mt-5 mx-4 right-0 rounded shadow-md">
+          <div className="absolute bg-white border border-gray-100 left-0 -mt-6 mx-4 py-2 right-0 rounded shadow-md">
             <span className="align-middle text-2xl">{product.name}</span>
           </div>
 
