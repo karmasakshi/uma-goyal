@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/karmasakshi/uma-goyal/compare/v2.4.0...v2.5.0) (2021-02-10)
+
+
+### Features
+
+* update font sizes ([624c9be](https://github.com/karmasakshi/uma-goyal/commit/624c9bec24ffd9f7fb246227fe4fbe3e681e00e3))
+
 ## [2.4.0](https://github.com/karmasakshi/uma-goyal/compare/v2.3.0...v2.4.0) (2021-02-10)
 
 
