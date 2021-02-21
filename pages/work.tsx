@@ -2,7 +2,7 @@ import Page from '@components/page/page';
 import ProductCarousel from '@components/product-carousel/product-carousel';
 import { PRODUCTS } from '@constants/products';
 import { Product } from '@interfaces/product';
-import { GetStaticProps } from 'next';
+import { GetStaticProps, GetStaticPropsResult } from 'next';
 import Image from 'next/image';
 import { FunctionComponent, ReactElement } from 'react';
 
@@ -59,7 +59,7 @@ const Work: FunctionComponent<WorkProps> = ({ products }: WorkProps): ReactEleme
 
 export default Work;
 
-export const getStaticProps: GetStaticProps<WorkProps> = async (): Promise<{ props: WorkProps }> => {
+export const getStaticProps: GetStaticProps<WorkProps> = async (): Promise<GetStaticPropsResult<WorkProps>> => {
 
   const products: Product[] = PRODUCTS;
 
