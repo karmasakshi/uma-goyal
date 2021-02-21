@@ -1,11 +1,12 @@
 import { Product } from '@interfaces/product';
 import Image from 'next/image';
+import { FunctionComponent, ReactElement } from 'react';
 
 interface ProductCarouselProps {
   products: Product[];
 }
 
-const ProductCarousel: (props: ProductCarouselProps) => JSX.Element = ({ products }: ProductCarouselProps): JSX.Element => (
+const ProductCarousel: FunctionComponent<ProductCarouselProps> = ({ products }: ProductCarouselProps): ReactElement => (
 
   <div className="overflow-x-auto pb-8 whitespace-nowrap">
 

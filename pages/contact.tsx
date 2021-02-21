@@ -1,7 +1,8 @@
 import Page from '@components/page/page';
 import Image from 'next/image';
+import { FunctionComponent, ReactElement } from 'react';
 
-const Contact: () => JSX.Element = (): JSX.Element => (
+const Contact: FunctionComponent = (): ReactElement => (
 
   <Page title="Contact">
 

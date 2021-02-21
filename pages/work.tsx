@@ -2,13 +2,15 @@ import Page from '@components/page/page';
 import ProductCarousel from '@components/product-carousel/product-carousel';
 import { PRODUCTS } from '@constants/products';
 import { Product } from '@interfaces/product';
+import { GetStaticProps } from 'next';
 import Image from 'next/image';
+import { FunctionComponent, ReactElement } from 'react';
 
 interface WorkProps {
   products: Product[];
 }
 
-const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.Element => (
+const Work: FunctionComponent<WorkProps> = ({ products }: WorkProps): ReactElement => (
 
   <Page title="Work">
 
@@ -57,8 +59,14 @@ const Work: (props: WorkProps) => JSX.Element = ({ products }: WorkProps): JSX.E
 
 export default Work;
 
-export const getStaticProps: () => Promise<{ props: WorkProps }> = async (): Promise<{ props: WorkProps }> => {
+export const getStaticProps: GetStaticProps<WorkProps> = async (): Promise<{ props: WorkProps }> => {
 
-  return { props: { products: PRODUCTS } };
+  const products: Product[] = PRODUCTS;
+
+  return {
+    props: {
+      products
+    }
+  };
 
 };

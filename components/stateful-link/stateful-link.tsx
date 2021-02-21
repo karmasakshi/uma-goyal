@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
-import { ReactNode } from 'react';
+import { FunctionComponent, ReactElement, ReactNode } from 'react';
 
 interface StatefulLinkProps {
   children: ReactNode;
   href: string;
 }
 
-const StatefulLink: (props: StatefulLinkProps) => JSX.Element = ({ children, href }: StatefulLinkProps): JSX.Element => {
+const StatefulLink: FunctionComponent<StatefulLinkProps> = ({ children, href }: StatefulLinkProps): ReactElement => {
 
   const router: NextRouter = useRouter();
 
