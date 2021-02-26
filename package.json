@@ -1,6 +1,6 @@
 {
   "name": "uma-goyal",
-  "version": "2.10.8",
+  "version": "2.10.9",
   "scripts": {
     "build": "next build",
     "serve": "next dev",
