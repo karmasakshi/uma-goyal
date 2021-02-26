@@ -6,6 +6,8 @@ const Index: FunctionComponent = (): ReactElement => (
 
   <Page title="">
 
+    <div className="mt-24"></div>
+
     <div className="qr-code-container">
       <Image alt="Logo" height={128} src="/logo.png" width={128} />
     </div>

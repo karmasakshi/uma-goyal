@@ -16,7 +16,7 @@ const Page: FunctionComponent<PageProps> = ({ children, title }: PageProps): Rea
 
     <Nav></Nav>
 
-    <section className="px-4 py-16 text-center">{children}</section>
+    <div className="pb-16 pt-4 px-4 text-center">{children}</div>
 
   </div>
 
