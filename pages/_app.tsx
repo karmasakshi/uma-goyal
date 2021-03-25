@@ -11,7 +11,7 @@ const MyApp: FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps):
 
     splitbee.init({
       apiUrl: '/sb-api',
-      scriptUrl: '/sb.js'
+      scriptUrl: '/sb.js',
     });
 
     splitbee.user.set({ appVersion: version });
