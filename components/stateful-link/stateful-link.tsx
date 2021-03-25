@@ -18,15 +18,13 @@ const StatefulLink: FunctionComponent<StatefulLinkProps> = ({ children, href }: 
   if (isLinkActive) {
 
     classNames.push('text-blue-500');
-
+  
   }
 
   return (
-
     <Link href={href}>
       <a className={classNames.join(' ')}>{children}</a>
     </Link>
-
   );
 
 };

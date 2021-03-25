@@ -4,11 +4,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,21 +13,12 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "arrow-spacing": "warn",
     "comma-dangle": "warn",
-    "indent": [
-      "warn",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
+    "indent": ["warn", 2],
+    "linebreak-style": ["error", "unix"],
     "no-alert": "warn",
     "no-console": "warn",
     "no-empty": "error",
@@ -39,14 +26,8 @@
     "no-unused-vars": "off",
     "padded-blocks": "warn",
     "prefer-const": "warn",
-    "quotes": [
-      "warn",
-      "single"
-    ],
-    "semi": [
-      "warn",
-      "always"
-    ],
+    "quotes": ["warn", "single"],
+    "semi": ["warn", "always"],
     "sort-keys": "warn",
     "space-infix-ops": "error",
     "react/react-in-jsx-scope": "off",

@@ -15,21 +15,17 @@ const MyApp: FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps):
     });
 
     splitbee.user.set({ appVersion: version });
-
+  
   }, []);
 
   return (
-
     <>
-
       <Head>
         <meta name="viewport" content="initial-scale=1, viewport-fit=cover, width=device-width"></meta>
       </Head>
 
       <Component {...pageProps} />
-
     </>
-
   );
 
 };

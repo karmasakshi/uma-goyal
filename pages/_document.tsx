@@ -11,11 +11,8 @@ class MyDocument extends Document {
   render(): JSX.Element {
 
     return (
-
       <Html lang="en">
-
         <Head>
-
           {/* General Icons */}
           <link rel="icon" type="image/png" href="/favicon.ico"></link>
           <link rel="icon" sizes="16x16" type="image/png" href="/icons/favicon-16x16.png"></link>
@@ -57,18 +54,15 @@ class MyDocument extends Document {
 
           {/* Manifest */}
           <link rel="manifest" href="/site.webmanifest"></link>
-
         </Head>
 
         <body className="antialiased leading-relaxed text-xl">
           <Main />
           <NextScript />
         </body>
-
       </Html>
-
     );
-
+  
   }
 
 }
