@@ -3,54 +3,57 @@ const headers = async () => [
     headers: [
       {
         key: 'Access-Control-Allow-Origin',
-        value: 'https://uma-goyal.com'
+        value: 'https://uma-goyal.com',
       },
       {
         key: 'Content-Security-Policy',
-        value: process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true' ? 'connect-src \'self\'; default-src \'self\'; font-src https://fonts.gstatic.com; img-src \'self\' data:; manifest-src \'self\'; object-src \'none\'; script-src \'self\'; style-src \'self\' https://fonts.googleapis.com \'unsafe-inline\'; upgrade-insecure-requests;' : ''
+        value:
+          process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true'
+            ? "connect-src 'self'; default-src 'self'; font-src https://fonts.gstatic.com; img-src 'self' data:; manifest-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; upgrade-insecure-requests;"
+            : '',
       },
       {
         key: 'Permissions-Policy',
-        value: 'autoplay=(), camera=(), fullscreen=(), geolocation=(), microphone=()'
+        value: 'autoplay=(), camera=(), fullscreen=(), geolocation=(), microphone=()',
       },
       {
         key: 'Referrer-Policy',
-        value: 'no-referrer'
+        value: 'no-referrer',
       },
       {
         key: 'Strict-Transport-Security',
-        value: 'max-age=63072000; includeSubDomains; preload'
+        value: 'max-age=63072000; includeSubDomains; preload',
       },
       {
         key: 'X-Content-Type-Options',
-        value: 'nosniff'
+        value: 'nosniff',
       },
       {
         key: 'X-Frame-Options',
-        value: 'DENY'
+        value: 'DENY',
       },
       {
         key: 'X-XSS-protection',
-        value: '1; mode=block'
-      }
+        value: '1; mode=block',
+      },
     ],
-    source: '/(.*)'
-  }
+    source: '/(.*)',
+  },
 ];
 
 const rewrites = async () => [
   {
     destination: 'https://cdn.splitbee.io/sb.js',
-    source: '/sb.js'
+    source: '/sb.js',
   },
   {
     destination: 'https://hive.splitbee.io/:slug',
-    source: '/sb-api/:slug'
-  }
+    source: '/sb-api/:slug',
+  },
 ];
 
 module.exports = {
   headers,
   reactStrictMode: true,
-  rewrites
+  rewrites,
 };
