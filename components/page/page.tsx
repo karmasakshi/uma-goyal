@@ -1,7 +1,7 @@
-import Nav from '@components/nav/nav';
-import Head from 'next/head';
-import { FunctionComponent, ReactElement, ReactNode } from 'react';
-import styles from './page.module.scss';
+import Nav from "@components/nav/nav";
+import Head from "next/head";
+import { FunctionComponent, ReactElement, ReactNode } from "react";
+import styles from "./page.module.scss";
 
 interface PageProps {
   children: ReactNode;
@@ -11,7 +11,7 @@ interface PageProps {
 const Page: FunctionComponent<PageProps> = ({ children, title }: PageProps): ReactElement => (
   <div className={styles.page}>
     <Head>
-      <title>{'Uma Goyal' + (title.length ? ' - ' + title : '')}</title>
+      <title>{"Uma Goyal" + (title.length ? " - " + title : "")}</title>
     </Head>
 
     <Nav></Nav>

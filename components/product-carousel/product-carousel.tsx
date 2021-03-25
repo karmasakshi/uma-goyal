@@ -1,6 +1,6 @@
-import { Product } from '@interfaces/product';
-import Image from 'next/image';
-import { FunctionComponent, ReactElement } from 'react';
+import { Product } from "@interfaces/product";
+import Image from "next/image";
+import { FunctionComponent, ReactElement } from "react";
 
 interface ProductCarouselProps {
   products: Product[];

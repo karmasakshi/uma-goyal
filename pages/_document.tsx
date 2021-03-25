@@ -1,10 +1,10 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
-const applicationName: string = 'Uma Goyal';
+const applicationName: string = "Uma Goyal";
 const description: string = "Hi, I'm Uma. I'm an Illustrator & Graphic Designer from Mumbai.";
-const domain: string = 'https://umagoyal.com';
-const keywords: string = 'uma, goyal, illustrator, graphic, designer, bombay, mumbai, art, freelance';
-const ogImageUrl: string = domain + '/icons/og-image.jpg';
+const domain: string = "https://umagoyal.com";
+const keywords: string = "uma, goyal, illustrator, graphic, designer, bombay, mumbai, art, freelance";
+const ogImageUrl: string = domain + "/icons/og-image.jpg";
 
 class MyDocument extends Document {
 

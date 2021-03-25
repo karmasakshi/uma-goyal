@@ -1,5 +1,5 @@
-import StatefulLink from '@components/stateful-link/stateful-link';
-import { FunctionComponent, ReactElement } from 'react';
+import StatefulLink from "@components/stateful-link/stateful-link";
+import { FunctionComponent, ReactElement } from "react";
 
 const Nav: FunctionComponent = (): ReactElement => (
   <nav className="flex justify-evenly pt-4">

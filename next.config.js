@@ -2,53 +2,53 @@ const headers = async () => [
   {
     headers: [
       {
-        key: 'Access-Control-Allow-Origin',
-        value: 'https://uma-goyal.com',
+        key: "Access-Control-Allow-Origin",
+        value: "https://uma-goyal.com",
       },
       {
-        key: 'Content-Security-Policy',
+        key: "Content-Security-Policy",
         value:
-          process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true'
+          process.env.NEXT_PUBLIC_IS_PRODUCTION === "true"
             ? "connect-src 'self'; default-src 'self'; font-src https://fonts.gstatic.com; img-src 'self' data:; manifest-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; upgrade-insecure-requests;"
-            : '',
+            : "",
       },
       {
-        key: 'Permissions-Policy',
-        value: 'autoplay=(), camera=(), fullscreen=(), geolocation=(), microphone=()',
+        key: "Permissions-Policy",
+        value: "autoplay=(), camera=(), fullscreen=(), geolocation=(), microphone=()",
       },
       {
-        key: 'Referrer-Policy',
-        value: 'no-referrer',
+        key: "Referrer-Policy",
+        value: "no-referrer",
       },
       {
-        key: 'Strict-Transport-Security',
-        value: 'max-age=63072000; includeSubDomains; preload',
+        key: "Strict-Transport-Security",
+        value: "max-age=63072000; includeSubDomains; preload",
       },
       {
-        key: 'X-Content-Type-Options',
-        value: 'nosniff',
+        key: "X-Content-Type-Options",
+        value: "nosniff",
       },
       {
-        key: 'X-Frame-Options',
-        value: 'DENY',
+        key: "X-Frame-Options",
+        value: "DENY",
       },
       {
-        key: 'X-XSS-protection',
-        value: '1; mode=block',
+        key: "X-XSS-protection",
+        value: "1; mode=block",
       },
     ],
-    source: '/(.*)',
+    source: "/(.*)",
   },
 ];
 
 const rewrites = async () => [
   {
-    destination: 'https://cdn.splitbee.io/sb.js',
-    source: '/sb.js',
+    destination: "https://cdn.splitbee.io/sb.js",
+    source: "/sb.js",
   },
   {
-    destination: 'https://hive.splitbee.io/:slug',
-    source: '/sb-api/:slug',
+    destination: "https://hive.splitbee.io/:slug",
+    source: "/sb-api/:slug",
   },
 ];
 
