@@ -2,7 +2,7 @@
 @tailwind components;
 
 .link {
-  @apply rounded px-1 text-blue-500;
+  @apply rounded text-blue-500;
 }
 
 .link:focus {
