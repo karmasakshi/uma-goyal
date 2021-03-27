@@ -16,23 +16,32 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "arrow-spacing": "warn",
-    "comma-dangle": "warn",
+    "comma-dangle": [
+      "warn",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
     "indent": ["warn", 2],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": "warn",
     "no-alert": "warn",
     "no-console": "warn",
-    "no-empty": "error",
-    "no-shadow": "error",
+    "no-empty": "warn",
+    "no-shadow": "warn",
     "no-unused-vars": "off",
     "padded-blocks": "warn",
     "prefer-const": "warn",
-    "quotes": ["warn", "single"],
-    "semi": ["warn", "always"],
+    "quotes": "warn",
+    "semi": "warn",
     "sort-keys": "warn",
-    "space-infix-ops": "error",
+    "space-infix-ops": "warn",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-function-return-type": [
-      "error",
+      "warn",
       {
         "allowConciseArrowFunctionExpressionsStartingWithVoid": false,
         "allowDirectConstAssertionInArrowFunctions": false,
@@ -42,7 +51,7 @@
       }
     ],
     "@typescript-eslint/explicit-module-boundary-types": [
-      "error",
+      "warn",
       {
         "allowArgumentsExplicitlyTypedAsAny": false,
         "allowDirectConstAssertionInArrowFunctions": false,
