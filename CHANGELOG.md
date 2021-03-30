@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/karmasakshi/uma-goyal/compare/v2.10.11...v2.11.0) (2021-03-30)
+
+
+### Features
+
+* update lint rules ([0f6be7d](https://github.com/karmasakshi/uma-goyal/commit/0f6be7d851a50350c5949d993fd98f5da8e2ba9a))
+
 ### [2.10.11](https://github.com/karmasakshi/uma-goyal/compare/v2.10.10...v2.10.11) (2021-03-08)
 
 ### [2.10.10](https://github.com/karmasakshi/uma-goyal/compare/v2.10.9...v2.10.10) (2021-03-02)
