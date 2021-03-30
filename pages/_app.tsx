@@ -3,7 +3,7 @@ import "@styles/global.scss";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { FunctionComponent, ReactElement, useEffect } from "react";
-import { version } from "../package.json";
+import appPackage from "../package.json";
 
 const MyApp: FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps): ReactElement => {
 
@@ -14,7 +14,7 @@ const MyApp: FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps):
       scriptUrl: "/sb.js",
     });
 
-    splitbee.user.set({ appVersion: version });
+    splitbee.user.set({ appVersion: appPackage.version });
   
   }, []);
 

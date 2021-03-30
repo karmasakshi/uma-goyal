@@ -53,6 +53,9 @@ const rewrites = async () => [
 ];
 
 module.exports = {
+  future: {
+    webpack5: true,
+  },
   headers,
   reactStrictMode: true,
   rewrites,
