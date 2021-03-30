@@ -56,7 +56,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest"></link>
         </Head>
 
-        <body className="antialiased leading-relaxed text-xl">
+        <body className="antialiased font-cursive leading-relaxed text-xl">
           <Main />
           <NextScript />
         </body>
