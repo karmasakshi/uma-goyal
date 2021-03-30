@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.12.0](https://github.com/karmasakshi/uma-goyal/compare/v2.11.0...v2.12.0) (2021-03-30)
+
+
+### Features
+
+* add font to tailwind configuration ([f22149c](https://github.com/karmasakshi/uma-goyal/commit/f22149c8d3bb4376f8e861675be22348a221ded2))
+
 ## [2.11.0](https://github.com/karmasakshi/uma-goyal/compare/v2.10.11...v2.11.0) (2021-03-30)
 
 
